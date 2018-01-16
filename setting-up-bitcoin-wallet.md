@@ -25,4 +25,20 @@ In general there are two different pieces of private data associated with your w
 
 Passcode is required to send coins from within an app and mnemonic code is the only way to restore your balance in emergency situations such as lost/stolen device, forgotten passcode, uninstalled app etc.
 
+###[](how-bitcoin-wallet-displays-balance)How Bitcoin wallet displays a balance
+
+Bitcoin wallet only allows to spend confirmed incoming transactions and as such it displays a balance in a way which may seem strange at first. Let's imagine the wallet is empty and you have an incoming 1 BTC transaction. Here is how a balance is going to be displayed:
+
+1. While 1 BTC incoming transaction is unconfirmed: `0 BTC + 1`
+2. Once 1 BTC incoming transaction gets a confirmation: `1 BTC`
+
+Now let's imagine you've decided to spend 0.1 BTC, here's how a balance will be looking:
+
+1. While 0.1 BTC outgoing transaction is unconfirmed: `0 BTC + 0.9`
+2. Once 0.1 BTC outgoing transaction gets a confirmation: `0.9 BTC`
+
+Consider a real-world example in order to understand this: you buy a snack costing $1 but you only have a single $10 bill. At the start you have $10 viewed from every possible angle. After you order the snack you hand over your $10 bill. From the perspective of your wallet you have zero dollars now, but you know in a few seconds the shopkeeper will give you back $9. 
+
+The situation is very similar in Bitcoin where an unconfirmed transaction may be viewed as a period of time between you handing over your $10 bill and getting a $9 back.
+
 Next: [Using Lightning wallet](http://lightning-wallet.com/using-lightning-wallet.html#using-lightning-wallet)
