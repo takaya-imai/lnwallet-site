@@ -25,7 +25,7 @@ In general there are two different pieces of private data associated with your w
 
 Passcode is required to send coins from within an app and mnemonic code is the only way to restore your balance in emergency situations such as lost/stolen device, forgotten passcode, uninstalled app etc.
 
-###[](how-bitcoin-wallet-displays-balance)How Bitcoin wallet displays a balance
+### [](how-bitcoin-wallet-displays-balance)How Bitcoin wallet displays a balance
 
 Bitcoin wallet only allows to spend confirmed incoming transactions and as such it displays a balance in a way which may seem strange at first. Let's imagine the wallet is empty and you have an incoming 1 BTC transaction. Here is how a balance is going to be displayed:
 
