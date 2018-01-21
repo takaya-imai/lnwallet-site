@@ -14,7 +14,7 @@ Here are en exact steps to take when a wallet password is forgotten or a phone i
 
 *Important note: restored wallet will appear empty at first and that is completely normal as it needs some time to catch up with network.*
 
-If you did not save your mnemonic code then there is nothing that can be done to recover your balance. Bitcoin is decentralised and meaning there is no third party that can recover lost Bitcoins if you did not take proper precautions to look after your wallet's mnemonic code.
+If you did not save your mnemonic code then there is nothing that can be done to recover your balance. Bitcoin is decentralised, meaning there is no third party that can recover lost Bitcoins for you if you did not take proper precautions beforehand.
 
 ### When your wallet is restored but the balance is still zero
 
