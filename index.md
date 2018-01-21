@@ -8,7 +8,7 @@ Bitcoin + Lightning Wallet is an [SPV](https://en.bitcoin.it/wiki/Scalability#Si
 
 It allows for both sending and receiving of regular Bitcoin transactions which are recorded on a public blockchain, take hours to days to settle, can have substantial fees and are intended for high value transfers.
 
-In addition to that it supports [off-chain Bitcoin transactions](https://en.bitcoin.it/wiki/Off-Chain_Transactions) also known as Lightning payments which are private, instant, have low fees and still do not rely on a [trusted third party](http://nakamotoinstitute.org/trusted-third-parties/) of any kind.
+In addition to that it supports [off-chain Bitcoin transactions](https://en.bitcoin.it/wiki/Off-Chain_Transactions) also known as 'Lightning payments' which are private, instant, have low fees and still do not rely on a [trusted third party](http://nakamotoinstitute.org/trusted-third-parties/) of any kind.
 
 ### [](#what-you-need-to-know)What you need to know
 
