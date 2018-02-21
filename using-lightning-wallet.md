@@ -36,7 +36,7 @@ In order to receive Lightning payments, some conditions must be met:
 
 ### [](#commit-transaction-fee)Commit transaction fee
 
-Sending each Lightning payment creates a valid Bitcoin transaction which is kept off-chain, in fact it never even leaves your device unless a forced channel closing happens. This *commit transaction* must have an appropriate fee for Bitcoin network to accept it in a timely manner.
+Sending each Lightning payment creates a valid Bitcoin transaction which is not broadcast to the network and is kept off-chain. In fact, it never even leaves your device unless a forced channel closing happens. This *commit transaction* must have an appropriate fee for Bitcoin network to accept it in a timely manner.
 
 As a consequence an actual amount available for spending in a payment channel will always be slightly less than the full amount as it always needs to contain enough funds for a current on-chain Bitcoin *commit transaction fee*.
 
