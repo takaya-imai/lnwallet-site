@@ -34,8 +34,8 @@ Bitcoin is only allowed to be spent if the incoming transactions have been confi
 
 Now let's imagine you've decided to spend 0.1 BTC, here's how a balance will be looking:
 
-1. While 0.1 BTC outgoing transaction is unconfirmed: `0 BTC + 0.9`
-2. Once 0.1 BTC outgoing transaction gets a confirmation: `0.9 BTC`
+1. While the 0.1 BTC outgoing transaction is unconfirmed: `0 BTC + 0.9`
+2. Once the 0.1 BTC outgoing transaction gets a confirmation: `0.9 BTC`
 
 Consider a real-world example in order to understand this: you buy a snack costing $1 but you only have a single $10 bill. At the start you have $10 viewed from every possible angle. After you order the snack you hand over your $10 bill. From the perspective of your wallet you have zero dollars now, but you know in a few seconds the shopkeeper will give you back $9 in change. 
 
