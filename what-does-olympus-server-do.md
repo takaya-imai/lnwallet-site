@@ -24,7 +24,7 @@ Here is what Olympus server does:
 
 - Stores an encrypted payment channel backup which can be used to [reimburse your locked channel balance](reimbursing-funds-locked-in-a-lost-payment-channel.html#reimbursing-funds-locked-in-a-lost-payment-channel) if you lose an access to your phone. *Note: saving one backup requires one [storage token](storage-tokens.html#storage-tokens).*
 
-- Schedules delayed refund Bitcoin transactions which spend funds from a payment channel to your Bitcoin wallet in a case of a [forced channel closing](using-lightning-wallet.html#forced-channel-closing). *Note: your wallet is capable of spending these transactions all by itself but it's possible that you lose your phone before a refund time lock is cleared so Olympus acts as a safety belt here. This service also requires one [storage token](storage-tokens.html#storage-tokens).*
+- Schedules delayed refund Bitcoin transactions, which spend funds from a payment channel to your Bitcoin wallet in a case of a [forced channel closing](using-lightning-wallet.html#forced-channel-closing). *Note: your wallet is capable of spending these transactions all by itself but it's possible that you lose your phone before a refund time lock is cleared so Olympus acts as a safety belt here. This service also requires one [storage token](storage-tokens.html#storage-tokens).*
 
 ### [](#setting-up-your-own-server)Setting up your own server
 
