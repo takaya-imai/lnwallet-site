@@ -10,10 +10,10 @@ A Lightning payment of 2000 Satoshi is automatically made by the wallet in excha
 
 ### [](#reasons-for-storage-tokens-to-exist)Reasons for storage tokens to exist
 
-- There is no incentive for me the developer to maintain a public Olympus server without getting paid for it somehow. Accepting micropayments for some useful API calls seems like a good idea but using a Lightning payment per each call is an overkill.
+- Storage tokens help to pay for the maintenance of a public Olympus server. Accepting micropayments for some useful API calls seems like a good idea but having a Lightning payment for each invidividual API call is overkill.
 
-- The goal is to keep Lightning Wallet as private as possible so any kind of traditional approach like registration and user accounts is a no-go. But at the same time simply allowing anonymous users to store any amount of data on a server is an obvious attack vector.
+- Lightning Wallet aims to be as private as possible, so no registration or user accounts are required. However, simply allowing anonymous users to store any amount of data on a server is an obvious attack vector.
 
-Storage tokens solve both of these issues beautifully: a single Lightning micropayment gives you an access to 50 API calls and technically speaking these storage tokens are [blind signatures](https://en.wikipedia.org/wiki/Blind_signature) which posess an [unlinkability property](https://tools.ietf.org/id/draft-hansen-privacy-terminology-00.html#unlinkability) so every API call made by your wallet is anonymous and private.
+Storage tokens solve both of these issues beautifully: a single Lightning micropayment gives you an access to 50 API calls. Technically speaking, storage tokens are [blind signatures](https://en.wikipedia.org/wiki/Blind_signature) which posess an [unlinkability property](https://tools.ietf.org/id/draft-hansen-privacy-terminology-00.html#unlinkability), meaning every API call made by your wallet is anonymous and private.
 
-All that said, you can opt out of this at any moment by [setting up your own Olympus server](what-does-olympus-server-do.html#setting-up-your-own-server) which would use a free public key based authentication instead of paid tokens.
+You are free to stop using storage tokens at any moment by [setting up your own Olympus server](what-does-olympus-server-do.html#setting-up-your-own-server), which would use a free public key-based authentication instead of paid storage tokens.
