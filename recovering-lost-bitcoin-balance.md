@@ -2,26 +2,30 @@
 layout: default
 ---
 
-### [](#recovering-lost-bitcoin-balance)Recovering lost Bitcoin balance
+### [](#recovering-lost-bitcoin-balance)Recovering your lost Bitcoin balance
 
-In a nutshell: you need to have a [mnemonic code](setting-up-bitcoin-wallet.html#mnemonic-code) saved *before* your balance is lost, either as plain 12 words or in encrypted form.
+In order to recover your lost Bitcoin balance you will need to use the 12 word [mnemonic code](setting-up-bitcoin-wallet.html#mnemonic-code) saved *before* your wallet is lost, either in the unencrypted 12 word format or in the encrypted form.
 
-Here are en exact steps to take when a wallet password is forgotten or a phone itself is no longer accessible for whatever reason:
+Here are the exact steps you should take when you forget your wallet's passcode or your phone is lost or stolen:
 
-1. If you still have an access to your phone then first of all you should erase all current app data. If you don't know how to erase an app data then just reinstall an application from scratch. If you no longer have an access to your phone then install an app once again on a new phone.
+1. If you still have access to your phone then first of all you should erase all current app data in your phone's settings. If you don't know how to erase app data then simply reinstall the application from scratch. If you no longer have access to your phone then install the app once again on a new phone.
 
-2. Open a fresh application and you'll be given an option to restore an existing Bitcoin wallet instead of creating a new one. Choose it and enter your mnemonic code as well as new wallet password. This is it, no further action is required.
+2. Open a fresh installation of the application and select the option to "Restore existing Bitcoin wallet" instead of creating a new one. Enter your mnemonic code as well as new wallet password. This is it, no further action is required.
 
-*Important note: restored wallet will appear empty at first and that is completely normal as it needs some time to catch up with network.*
+<!-- 3.? If your previous phone had been stolen, you may wish to transfer your balance to a new wallet to ensure that your wallet balance is only accessible from your new device. To do this... -->
 
-### When wallet is restored but the balance is still zero
+*Important note: restored wallets will appear empty at first as it needs some time to catch up with network.*
 
-If you don't see a balance restored for a long time then first of all you should make sure an app has no connectivity issues. Normally a well connected app displays syncing progress and shows a *Bitcoin wallet is online* message once syncing is done.
+If you did not save your mnemonic code then there is nothing that can be done to recover your balance. Bitcoin is decentralised, meaning there is no third party that can recover lost wallet balances for you if you did not take proper precautions beforehand.
 
-A case when an app is indeed well connected and synced but you still see a zero balance and no transaction history means that your mnemonic contains a typo somewhere.
+### [](#wallet-restored-but-balance-zero)When your wallet is restored but the balance is still zero
 
-In order to eliminate a typo you can compare your saved mnemonic code with a [list of all possible words](english-bip32.json). An in-page search may be used there to check if every word from your mnemonic is also present on a list, in case if it's not there just fix a typo and you're done.
+If you don't see a balance restored for a long time then first of all you should make sure your device has no connectivity issues. Normally a well-connected device displays syncing progress and shows a *Bitcoin wallet is online* message once syncing is complete.
 
-Also, mnemonic code should be entered very carefully when restoring a wallet since an app will accept any string while a single typo is a single word will result in totally different wallet.
+When your device is well connected and synced but you still see a zero balance with no transaction history, this means that your restored mnemonic must contain a typo somewhere.
+
+In order to discover and eliminate a typo you can compare your saved mnemonic code with a [list of all possible valid words](english-bip32.json). An in-page search may be used on to check if every word from your mnemonic is also present in the list. If one or more of your words are not present then simply fix any typos and try again.
+
+Please take care to enter your mnemonic code very carefully when restoring your wallet. Any text is considered valid so even a single typo will be accepted, resulting in you restoring a completely different wallet.
 
 Next: [Reimbursing funds locked in a lost payment channel](http://lightning-wallet.com/reimbursing-funds-locked-in-a-lost-payment-channel.html#reimbursing-funds-locked-in-a-lost-payment-channel)
